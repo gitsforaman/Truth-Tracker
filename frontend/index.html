@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Truth Tracker - DesiHack Force</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🛡️ Truth Tracker</h1>
+      <p>Combat Fake News. Restore the Truth.</p>
+    </header>
+
+    <section class="form-section">
+      <form id="claimForm">
+        <input type="text" id="fakeClaim" placeholder="Enter a fake claim..." required />
+        <input type="text" id="factCounter" placeholder="Enter a factual counter..." required />
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>📰 Recent Claims</h2>
+      <div id="claimsList"></div>
+    </section>
+  </div>
+
+  <footer>
+    <p>© 2025 Aman Srivastava • Built with ❤️ to fight misinformation</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
